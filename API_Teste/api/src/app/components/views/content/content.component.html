@@ -1,0 +1,11 @@
+<div class="content">
+    <div class="escrito">
+        <mat-card class="m20" *ngFor="let item of aux">
+            <mat-card-title>{{ item.description_pro }}</mat-card-title>
+            <img src="{{item.medias[0]}}" mat-card-sm-image>
+            <mat-card-content>{{item.name_category}}</mat-card-content>
+            <mat-card-content class="codigo">Código: {{ item.id }}</mat-card-content>
+            <mat-card-footer class="m01">Preço R$: {{ item.price_sale_det }},00</mat-card-footer>
+        </mat-card>
+    </div>
+</div>

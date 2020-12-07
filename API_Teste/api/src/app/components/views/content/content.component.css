@@ -1,0 +1,34 @@
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    height: 1000px;
+    background-color: #EEE;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
+.escrito {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.m01 {
+    margin: 0.1px;
+}
+
+.m20 {
+    margin: 20px;
+}
+
+.codigo{
+    font-size:0.8rem;
+}
